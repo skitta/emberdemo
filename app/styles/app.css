@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+}
+
+header {
+	display: block;
+}
+
+ul, ol {
+	list-style-type: none;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	padding: 1em 0;
+	background-color: red;
+}
+
+.header a {
+	color: white;
+}
+
+.header .header-nav {
+	align-items: center;
+	display: flex;
+	height: 2.8em;
+	justify-content: space-between;
+}
+
+.container {
+	max-width: 68em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 1em;
+}
+
+.item-display {
+	display: inline-block;
+	margin: 1em 1em;
+	padding: 0.5em 0.5em;
+	box-shadow: 0 0 2px grey;
+}
+
+.item-img {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+}
+
+.item-title {
+	margin-top: 0.5em;
+}
+
+.item-price {
+	margin-top: 0.5em;
+	font-size: 20px;
+	color: red;
+}

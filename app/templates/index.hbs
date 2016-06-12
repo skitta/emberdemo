@@ -1,0 +1,10 @@
+<h1>Welcome to Ember</h1>
+
+<p>We hope you find exactly what you're looking for...</p>
+
+{{item-displayer title='xiaomi 4' price='$400'}}
+{{item-displayer title='huawei p5' price='$388'}}
+
+{{#each model as |post|}}
+	{{news-post title=post.title detail=post.detail}}
+{{/each}}
